@@ -112,7 +112,7 @@ export default function Index() {
   });
 
   const topCategory = Object.entries(categoryTotals).sort(
-    ([, a], [, b]) => b - a
+    ([, a], [, b]) => b - a,
   )[0];
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
